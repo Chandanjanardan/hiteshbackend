@@ -108,6 +108,11 @@ app.get("/dashboard",auth,(req,res)=>{
     res.status(200).send("welcome to secreate info")
 })
 
+// one more routes
+app.get("/dashboard",auth,(req,res)=>{
+    res.status(200).send("welcome to secreate info")
+})
+
 
 // export function
 module.exports=app;
